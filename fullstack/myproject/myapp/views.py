@@ -20,4 +20,5 @@ def form_view(request):
             return JsonResponse({
                 'message': 'success'
             })
+        
     return render(request, 'blog.html', {'form':form})
